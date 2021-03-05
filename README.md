@@ -19,7 +19,7 @@ with more that 200 000 nodes as the optimization might take too long.
 `/RESULTS/<folderName>` and `/ITERATIONS/<folderName>` with the optimization 
 results and with figures of each iteration.
 
-
+# Example 
 ## Meshing 
 The first step in the optimization is to obtain a mesh of the design domain. As
 we are using TET4 elements, this mesh will be stored as two arrays: `nodeCoord` 
