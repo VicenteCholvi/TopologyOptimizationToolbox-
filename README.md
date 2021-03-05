@@ -1,7 +1,7 @@
 # Topology Optimization Toolbox 
 
-*The folder /TopologyOptimizatoinToolbox contains all the Matlab functions
-*The folder /Examples contains files required for some of the examples
+* The folder /TopologyOptimizatoinToolbox contains all the Matlab functions
+* The folder /Examples contains files required for some of the examples
 
 *The matlab files strarting with MI are examples in which the mesh files 
 are imported from the /Examples folder. 
