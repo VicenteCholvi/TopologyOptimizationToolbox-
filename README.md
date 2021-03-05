@@ -128,7 +128,7 @@ direction argument to 'X', 'Y', 'Z' or '[]' (all directions) and the color argum
 the color for each type of plot. The following code adds some loads and boundary
 conditions and plots these in different directions:
 
-´
+```
 1 f.addBC('XYZ', (m.X < 0.5) & (m.Z == 0) & (abs(m.Y - 0.5) > 0.2))
 2
 3 q1 = abs((m.X - 1.5).ˆ2 + (m.Z - 0.5).ˆ2 -0.2ˆ2) < 0.08.ˆ2; % Condition 1
@@ -139,7 +139,7 @@ conditions and plots these in different directions:
 8 f.plot('load', 'Z', 'r')
 9 f.plot('bound', [], 'b')
 10 title('Design Domain, Loads and Boundary Conditions')
-´
+```
 
 ### Material Specifcation
 The strain stress law must be specified using f.addMaterial(C), the follow-
