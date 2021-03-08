@@ -242,6 +242,7 @@ classdef optimizationObject < handle
 
             disp('Sensitivity Smoothing');tic; 
             fprintf(repmat(' ', 1,30));
+            obj.sensitivitySmoothing
             obj.sensitivitySmoothing; toc
         end
 
