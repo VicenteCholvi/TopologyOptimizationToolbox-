@@ -1,0 +1,31 @@
+Nastran BUFFSIZE=8193 $(d:/program files/mscnastran/nastran/conf/nast20191.rcf[2])
+JID='D:\aegis\Documents\TFG\TESTFEA\PATR\011.bdf'
+OUT='./011'
+MEM=527MB      $ 
+MACH='AMD'
+OPER='Windows 10 Home'
+OSV='6.2 9200'
+MODEL='AMD Ryzen 5 2500U with Radeon  (LAPTOP-BLS96KGT)'
+NPROC='8'
+CONFIG=15
+NPROC=8
+symbol=DELDIR='d:/program files/mscnastran/nastran/msc20191/nast/del' $(program default)
+symbol=DEMODIR='d:/program files/mscnastran/nastran/msc20191/nast/demo' $(program default)
+symbol=SSSALTERDIR='d:/program files/mscnastran/nastran/msc20191/nast/sssalter' $(program default)
+symbol=TPLDIR='d:/program files/mscnastran/nastran/msc20191/nast/tpl' $(program default)
+SDIR='d:/scratch/011.T16600_42'
+DBS='d:/scratch/011.T16600_42'
+SCR='yes'
+SMEM=100
+BPOOL=150
+DMPMEM=0
+NEWDEL='d:/program files/mscnastran/nastran/msc20191/win64i8/SSS'
+DEL='MSCDEF'
+DML=MSCDEF
+SDL=MSCDEF
+AUTH='edu'
+AUTHQUE=20
+MSGCAT='d:/program files/mscnastran/nastran/msc20191/win64i8/analysis.msg'
+MSGDEST='f06'
+PROG=edu
+NEWS='d:/program files/mscnastran/nastran/msc20191/nast/news.txt'

@@ -1,0 +1,133 @@
+MSC Nastran V2019FP1 (AMD Windows 10 Home 6.2 9200) Control File: 
+----------------------------------------------------------------- 
+Nastran BUFFSIZE=8193 $(d:/program files/mscnastran/nastran/conf/nast20191.rcf[2])
+JID='D:\aegis\Documents\TFG\TESTFEA\PATR\011.bdf'
+OUT='./011'
+MEM=527MB      $ 
+MACH='AMD'
+OPER='Windows 10 Home'
+OSV='6.2 9200'
+MODEL='AMD Ryzen 5 2500U with Radeon  (LAPTOP-BLS96KGT)'
+NPROC='8'
+CONFIG=15
+NPROC=8
+symbol=DELDIR='d:/program files/mscnastran/nastran/msc20191/nast/del' $(program default)
+symbol=DEMODIR='d:/program files/mscnastran/nastran/msc20191/nast/demo' $(program default)
+symbol=SSSALTERDIR='d:/program files/mscnastran/nastran/msc20191/nast/sssalter' $(program default)
+symbol=TPLDIR='d:/program files/mscnastran/nastran/msc20191/nast/tpl' $(program default)
+SDIR='d:/scratch/011.T19852_23'
+DBS='d:/scratch/011.T19852_23'
+SCR='yes'
+SMEM=100
+BPOOL=150
+DMPMEM=0
+NEWDEL='d:/program files/mscnastran/nastran/msc20191/win64i8/SSS'
+DEL='MSCDEF'
+DML=MSCDEF
+SDL=MSCDEF
+AUTH='edu'
+AUTHQUE=20
+MSGCAT='d:/program files/mscnastran/nastran/msc20191/win64i8/analysis.msg'
+MSGDEST='f06'
+PROG=edu
+NEWS='d:/program files/mscnastran/nastran/msc20191/nast/news.txt'
+----------------------------------------------------------------- 
+MSC_ISHELLPATH=d:\aegis\documents\tfg\testfea\patr 
+MSC_JIDPATH= 
+PATH=d:\program files\mscnastran\nastran\msc20191\win64i8\nCode\bin;d:\program files\mscnastran\nastran\msc20191\win64i8\nvidia;d:\program files\mscnastran\nastran\msc20191\win64i8\lib;d:\program files\mscnastran\nastran\msc20191\win64i8;D:\Program Files\MSCNastran\Patran\bin;D:\Program Files\MSCNastran\Patran\bin\exe;D:\Program Files\MSCNastran\Patran\Perl_msc\bin;D:\Program Files\MSCNastran\Patran\scasystem_files;D:\Program Files\MSCNastran\Patran\bin;D:\Program Files\MSCNastran\Patran\bin\exe;D:\Program Files\MSCNastran\Patran\Perl_msc\bin;D:\Program Files\MSCNastran\Patran\scasystem_files;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\SIMULIA\Commands;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\MATLAB\bin;C:\Program Files\MATLAB\R2018b\bin;D:\Program Files\Calibre\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\PuTTY\;;C:\Users\vtech\AppData\Local\Programs\Python\Python38\;D:\Program Files\Tex\texlive\2020\bin\win32;C:\Users\vtech\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\vtech\AppData\Local\Programs\Python\Python38\;C:\Users\vtech\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\vtech\atom\bin;C:\Users\vtech\AppData\Local\atom\bin;D:\Program Files\IntelliJ\IntelliJ IDEA Community Edition 2019.2.3\bin;;C:\Users\vtech\AppData\Local\Microsoft\WindowsApps;;; 
+SCA_SERVICE_CATALOG=d:\program files\mscnastran\nastran\msc20191\res\SCAServiceCatalog.xml 
+SCA_RESOURCE_DIR=d:\program files\mscnastran\nastran\msc20191\res 
+Cmd Line:    d:\Program Files\MSCNastran\Nastran\msc20191\win64i8\nastran.exe 011.bdf prog=edu auth=edu bat=no 
+Current Dir: D:\aegis\Documents\TFG\TESTFEA\PATR 
+Time Cmd:    d:\program files\mscnastran\nastran\msc20191\win64i8\msctime 
+Executable:  d:\program files\mscnastran\nastran\msc20191\win64i8\analysis.exe 
+Arch= Kywd:  64  
+MSC_MSG:     stderr  
+FPE:         yes  
+----------------------------------------------------------------- 
+Current resource limits:
+ Physical memory:                     7123 MB
+ Physical memory available:           1145 MB
+ Paging file size:                   17123 MB
+ Paging file size available:          7005 MB
+ Virtual memory:                 134217727 MB
+ Virtual memory available:       134213534 MB
+----------------------------------------------------------------- 
+System configuration:
+ Hostname:         LAPTOP-BLS96KGT
+ Architecture:     win64i8
+ Platform:         AMD Windows 10 Home 6.2 9200 (Windows Compute Cluster)
+ Model:            AMD Ryzen 5 2500U with Radeon 
+ Clock freq.:      11756 MHz
+ Number of CPUs:   8
+ Executable:       standard
+ Raw model ID:     15
+ Config number:    15
+ Physical memory:  7123 MB
+ Virtual memory:   17123 MB
+ Numeric format:   64-bit little-endian IEEE.
+ Bytes per word:   8
+ Disk block size:  512 bytes (64 words)
+ Remote shell cmd: "d:/program files/mscnastran/nastran/msc20191/win64i8/mscrmtcmd.exe" (Windows non-CCS nodes, UNIX)
+                   <ccs_cmd> (Windows CCS nodes)
+----------------------------------------------------------------- 
+MSC Nastran started  Wed Sep 30 18:59:24 WEST 2020 
+ 18:59:28  Beginning Analysis
+SCA Kernel 22.10.671911 successfully initialized
+BLAS/LAPACK .dll "d:\program files\mscnastran\nastran\msc20191\win64i8\libimalloc.dll" has been loaded.
+BLAS/LAPACK .dll "d:\program files\mscnastran\nastran\msc20191\win64i8\mkl_core.dll" has been loaded.
+BLAS/LAPACK .dll "d:\program files\mscnastran\nastran\msc20191\win64i8\mkl_intel_thread.dll" has been loaded.
+BLAS/LAPACK .dll "d:\program files\mscnastran\nastran\msc20191\win64i8\mkl_rt.dll" has been loaded.
+BLAS/LAPACK .dll "d:\program files\mscnastran\nastran\msc20191\win64i8\MSCblas.dll" has been loaded.
+
+ 18:59:29  MSC Authorization Information - Checkout Successful (1016, 0)
+ 18:59:29  -------------------------------------------------------------
+ 18:59:29  Acquired 1 license for Student Edition Nastran
+
+
+Beginning bulk data processing using the IFPStar component.
+For more information on IFPStar, please see KB article KB8019200
+on our support pages, at http://simcompanion.mscsoftware.com.
+
+ 18:59:29  29625 records read from JID file "D:\aegis\Documents\TFG\TESTFEA\PATR\011.bdf"
+
+Processing of bulk data entries is complete.
+
+ 18:59:29  Analysis started.
+ 18:59:29  Geometry access/verification to CAD part initiated (if needed).
+ 18:59:29  Geometry access/verification to CAD part successfully completed (if needed).
+ 18:59:30  Finite element model generation started.
+ 18:59:30  Finite element model generated 27114 degrees of freedom.
+ 18:59:30  Finite element model generation successfully completed.
+ 18:59:30  Application of Loads and Boundary Conditions to the finite element model started.
+ 18:59:30  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 18:59:31  Solution of the system equations for linear statics started.
+ 18:59:31  Solution of the system equations for linear statics successfully completed.
+ 18:59:37  Linear static analysis completed.
+ 18:59:37  20 records read from JID file "D:\aegis\Documents\TFG\TESTFEA\PATR\011.bdf"
+ 18:59:37  NSEXIT: EXIT(0)
+ 18:59:37  Analysis complete  0
+Real:        8.414 seconds ( 0:00:08.414)
+User:        5.250 seconds ( 0:00:05.250)
+Sys:         3.109 seconds ( 0:00:03.109)
+ ==================================================
+ OS:              6.2
+ OEM ID:         9
+ Number of processors:         8
+ Page size:         4096
+ Processor type:         8664
+ Minimum application address:         10000
+ Maximum application address:         fffeffff
+ Active processor mask:         255
+ Nsocket:         1
+ Ncore:           4  ( 1 X 4 )
+ HyperThreading:  On
+ Ram:          7123 Mb
+ ==================================================
+ Time Summary                 CPU       Wall   ( Time in Seconds )
+ Consider using SOLVE=AUTO if you have not.
+ =====================================================
+ Detailed performance information can be found in the 
+ "MSC Nastran High Performance Computing User's Guide"
+ =====================================================
+MSC Nastran finished Wed Sep 30 18:59:37 WEST 2020 

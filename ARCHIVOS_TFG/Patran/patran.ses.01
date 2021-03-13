@@ -1,0 +1,60 @@
+$# Session file patran.ses.01 started recording at 13-Mar-21 11:42:00
+$# Build: 26.0.758311 Tue Sep 15 10:33:18 PDT 2020
+$# Recorded by: Patran 2020  (Student Edition)
+uil_file_open.go( "C:\Users\Vicente\Documents\TFG_git\TopologyOptimization" // @
+"Toolbox-\ARCHIVOS_TFG\Patran\011.db" )
+$# Database version 3.21 created by Patran 2020  (Student Edition) 
+$# successfully opened.
+$# Attaching Direct Results Access file: "./011.h5"
+$# *** Begin: Attach Result File ***
+$# Total execution time in real seconds:        0.000
+$# Total execution time in CPU  seconds:        0.016
+$# *** End:   Attach Result File ***
+$# Appending to existing journal file 
+$# C:\Users\Vicente\Documents\TFG_git\TopologyOptimizationToolbox-\ARCHIVOS_TF
+$# G\Patran\011.db.jou at 13-Mar-21 11:42:02
+$# FLEXlm initialization complete.  Acquiring license(s)...
+$# License File: EDU
+$# Patran 2020  (Student Edition) has obtained 0 concurrent license(s) from 
+$# FLEXlm per a request to execute on Windows node DESKTOP-KC4UEA1(
+$# 00155dfd7c75) (Windows 6.2 (Build 9200: Service Pack 0)) at 13-Mar-21 
+$# 11:42:02.
+$# Begin Reading RMB Menu definitions
+$# Done Reading RMB Menu definitions
+$# Loading dynamic library C:\Program 
+$# Files\MSC.Software\NaPa_SE\2020\Patran\bin\exe\loads_browser.dll
+$# рм_bЯ shared library 'Loads Browser', Version 2020, Revision 3, Patch 0, 
+$# has been loaded for: MSC.Patran.
+ga_view_center_set( 0.285230, 0.224931 )
+ga_view_zoom_set( 0.320907 )
+ga_view_center_set( 0.299662, 0.225976 )
+ga_view_zoom_set( 0.285251 )
+ga_view_center_set( 0.284838, 0.224539 )
+ga_view_zoom_set( 0.320907 )
+ga_view_center_set( 0.251483, 0.221306 )
+ga_view_zoom_set( 0.401134 )
+ga_view_center_set( 0.188392, 0.214694 )
+ga_view_zoom_set( 0.551559 )
+ga_view_center_set( 0.162506, 0.213684 )
+ga_view_zoom_set( 0.620504 )
+ga_view_center_set( 0.104263, 0.211411 )
+ga_view_zoom_set( 0.775630 )
+ga_view_center_set( 0.031459, 0.208570 )
+ga_view_zoom_set( 0.969537 )
+ga_view_center_set( -0.010492, 0.215673 )
+ga_view_zoom_set( 1.090730 )
+ga_view_center_set( -0.104882, 0.231654 )
+ga_view_zoom_set( 1.363412 )
+ga_view_center_set( -0.163876, 0.241642 )
+ga_view_zoom_set( 1.533839 )
+ga_view_aa_set( -77.943169, 24.455503, -73.409065 )
+ga_view_zoom_set( 1.383914 )
+ga_view_center_set( 0.085228, -0.076658 )
+ga_viewport_location_set( "default_viewport", 1.043307, 0.098425, 1 )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+uil_file_close.goquit(  )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 13-Mar-21 11:42:56
+$# Session file patran.ses.01 stopped recording at 13-Mar-21 11:42:56
