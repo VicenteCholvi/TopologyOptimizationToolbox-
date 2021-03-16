@@ -47,7 +47,7 @@ f.addMaterial(C)
 
 %% Optimization Settings SIMP 
 os = defaultOptimSettings();
-os.Vstar = 0.25;
+os.Vstar = 0.3;
 os.numIter = 25;
 os.method = 'SIMP';
 
