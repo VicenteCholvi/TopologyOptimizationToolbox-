@@ -9,6 +9,7 @@ settings.keepBounded = 0;       % Keep Elements that Have Nodes with BCs
 settings.keepForced = 1;        % Keep Elements that have nodes with Loads
 settings.outputAllIterations = 1;   % Save plot of each iteration
 settings.smoothingW = 1;        % Sensitivity Smoothing 
+settings.smoothingNum = 1;      % Number of times to apply smoothing filter
 settings.xmin = 0.001 ;         % Minimum Value of x (/=0 for stability
 settings.solveMethod = 'mldivide'; % Linear System solution method
 settings.solveTol = 1e-6;       % Lin Sys Sol tolerance(if iterative)
