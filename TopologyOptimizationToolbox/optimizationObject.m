@@ -242,8 +242,9 @@ classdef optimizationObject < handle
 
             disp('Sensitivity Smoothing');tic; 
             fprintf(repmat(' ', 1,30));
-            obj.sensitivitySmoothing
-            obj.sensitivitySmoothing; toc
+            for i = 1:obj.ss.smoothingNum
+                obj.sensitivitySmoothing 
+            end; toc
         end
 
         function updateDensities(obj)
