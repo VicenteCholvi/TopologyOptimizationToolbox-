@@ -33,7 +33,7 @@ f.plot('bound', [], 'b')
 
 %% Loads 
 q =( m.X == 2) & (abs(m.Z - 0.5) < 0.1) & (abs(m.Y - 0.5) < 0.1);  % Nodes
-p = -1000./max(1e-40, sum(q));                                 % Magnitude
+p = -1./max(1e-40, sum(q));                                 % Magnitude
 f.addLoad('Z', p*q)
 f.plot('load', 'Z', 'r')
 
