@@ -1,3 +1,4 @@
+![](https://raw.githubusercontent.com/VicenteCholvi/TopologyOptimizationToolbox-/main/CentrallyLoadedBeam.gif)
 # Topology Optimization Toolbox 
 
 * The folder /TopologyOptimizatoinToolbox contains all the Matlab functions
