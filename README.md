@@ -1,6 +1,7 @@
 # Topology Optimization Toolbox 
 ![](https://raw.githubusercontent.com/VicenteCholvi/TopologyOptimizationToolbox-/main/CentrallyLoadedBeam.gif)
 ![](https://github.com/VicenteCholvi/TopologyOptimizationToolbox-/blob/main/embeddedBeam.gif)
+<img src="https://github.com/VicenteCholvi/TopologyOptimizationToolbox-/blob/main/embeddedBeam.gif" width="200"/>
 * The folder /TopologyOptimizatoinToolbox contains all the Matlab functions
 * The folder /Examples contains files required for some of the examples
 
